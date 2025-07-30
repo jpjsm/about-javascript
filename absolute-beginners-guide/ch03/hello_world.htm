@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>An Interesting Title Goes Here</title>
+        <style></style>
+    </head>
+    <body>
+        <script>
+            function showDistance(speed, time) {
+                alert("show distance: " +(speed * time));
+            }
+            function getDistance(speed, time) {
+                return speed * time;
+            }
+            showDistance(10,5);
+            showDistance(85,1.5);
+            showDistance(12,9);
+            showDistance(42,21);
+
+            alert("get distance: " + getDistance(10,5));
+            alert("get distance: " + getDistance(85,1.5));
+            alert("get distance: " + getDistance(12,9));
+            alert("get distance: " + getDistance(42,21));
+        </script>        
+    </body>
+</html>
